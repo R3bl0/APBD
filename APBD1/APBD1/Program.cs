@@ -5,6 +5,7 @@ Console.WriteLine("Hello, User3");
 
 static double Avg(int[] liczby)
 {
+
     double avg = 0;
     avg = 0;
     foreach (int i in liczby)
