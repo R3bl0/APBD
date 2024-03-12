@@ -5,12 +5,12 @@ Console.WriteLine("Hello, User3");
 
 static double Avg(int[] liczby)
 {
-    double avg = 0;
+    double avggg = 0;
     foreach (int i in liczby)
     {
-        avg += (double)i;
+        avggg += (double)i;
     }
-    return avg / liczby.Length;
+    return avggg / liczby.Length;
 }
 
 static int Max(int[] liczby)
