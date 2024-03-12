@@ -8,7 +8,7 @@ static double Avg(int[] liczby)
     double avg = 0;
     foreach (int i in liczby)
     {
-        avg += (double)liczby[i];
+        avg += (double)i;
     }
     return avg / liczby.Length;
 }
